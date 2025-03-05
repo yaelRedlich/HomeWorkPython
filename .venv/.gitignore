@@ -1,0 +1,23 @@
+# קבצי PyCharm שלא צריכים להיות בגיט
+.idea/
+
+# קבצי קומפילציה של Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# קובצי מערכת הפעלה שלא שייכים לפרויקט
+.DS_Store
+Thumbs.db
+
+# קובצי וירטואל אנבירומנט (אם את משתמשת ב-venv)
+venv/
+env/
+
+# קובצי לוג וקבצים זמניים
+*.log
+*.tmp
+
+# קובצי Jupyter Notebook checkpoints (אם את עובדת עם Jupyter)
+.ipynb_checkpoints/
